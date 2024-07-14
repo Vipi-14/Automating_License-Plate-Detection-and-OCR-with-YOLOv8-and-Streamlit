@@ -1,6 +1,6 @@
 streamlit
 opencv-python-headless
-pip install numpy==1.21.4
+numpy==1.21.4
 Pillow
 ultralytics
 paddleocr
