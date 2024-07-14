@@ -1,6 +1,6 @@
 streamlit
 opencv-python-headless
-numpy==1.21.4
+numpy==1.20.3
 Pillow
 ultralytics
 paddleocr
