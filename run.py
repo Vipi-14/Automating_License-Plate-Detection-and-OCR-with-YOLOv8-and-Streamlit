@@ -98,7 +98,7 @@ def draw_annotations(image, annotations):
     
     return image
 
-st.title("License Plate Recognition with YOLOv8")
+st.title("License Plate Recognition")
 st.write("Upload an image to detect and annotate license plates.")
 
 # Image upload
