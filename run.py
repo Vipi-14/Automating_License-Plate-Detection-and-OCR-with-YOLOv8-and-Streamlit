@@ -69,7 +69,7 @@ def draw_annotations(image, annotations):
         draw.rectangle([(bbox[0], bbox[1]), (bbox[2], bbox[3])], outline='blue', width=3)
         # Annotate confidence
         # draw.text((bbox[0], bbox[1] - 10), f"Confidence: {confidence:.2f}", fill='blue')
-        font=ImageFont.truetype('arial.ttf',10)
+        font=ImageFont.load_default()
 
         cropped_plate = image.crop((bbox[0], bbox[1], bbox[2], bbox[3]))
 
