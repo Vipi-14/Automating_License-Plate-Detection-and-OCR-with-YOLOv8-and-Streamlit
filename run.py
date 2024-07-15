@@ -1,5 +1,6 @@
 import streamlit as st
-import cv2,os
+import cv2
+import os
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 import json
